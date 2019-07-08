@@ -14,7 +14,9 @@ Verilog code for a flip-flop with a negative-edge clock and asynchronous clear.
               q <= d;
           end
         endmodule
-        
+
+Example 2
+
  Verilog code for the flip flop with a positive-edge clock and synchronous set.
  
         module ff_syn ( clk, d, s, q);
@@ -30,6 +32,8 @@ Verilog code for a flip-flop with a negative-edge clock and asynchronous clear.
               q<= d;
             end
          endmodule
+
+Example 3
          
 Verilog code for a flip-flop with a negative-edge clock and asynchronous clear.
 
@@ -46,7 +50,9 @@ Verilog code for a flip-flop with a negative-edge clock and asynchronous clear.
               q<= d;
             end
         endmodule
-        
+ 
+ Example 4
+ 
  Verilog code for a 4-bit register with a positive-edge clock, asynchronous set and clock enable.
 
         module 4bit_asynchronous (clk, d, ce, pre, q);
