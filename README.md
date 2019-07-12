@@ -1,4 +1,4 @@
-# Example-coding
+# Verilog Example coding
 Example 1
 
 Verilog code for a flip-flop with a negative-edge clock and asynchronous clear.
